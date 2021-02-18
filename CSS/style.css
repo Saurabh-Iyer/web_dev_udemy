@@ -1,0 +1,31 @@
+/* Selector{
+    Property: value;
+} */
+
+h2,p{
+    color: #AA4139;
+    text-align: center;
+    border: 5px dashed rgba(000, 000,000, 0.5);
+    cursor: pointer;
+}
+p{
+    text-decoration: black;
+    font-style: italic;
+    line-height: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    background-image: url(back.jpg);
+    background-size: cover;
+}
+
+li{
+    list-style-type: none;
+    display: inline-block;
+}
+.g1 {
+    border: rgba(000, 000,000, 0.5);
+}
+#div1{
+    background-color: rgba(000, 000,000, 0.5);
+}
