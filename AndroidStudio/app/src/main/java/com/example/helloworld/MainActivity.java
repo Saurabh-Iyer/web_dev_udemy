@@ -21,8 +21,15 @@ public class MainActivity extends AppCompatActivity {
     public void onBtnClick (View view){
 
         TextView txtHello = findViewById(R.id.mainText);
-        EditText edtTxtName = findViewById(R.id.edtTxtName);
-        txtHello.setText("Hello  "+ edtTxtName.getText().toString());
+        TextView txtName = findViewById(R.id.textView);
+        TextView txtLaName = findViewById(R.id.textView2);
+
+        EditText edtTxtName = findViewById(R.id.firstName);
+        EditText edtTxtLName = findViewById(R.id.lastName);
+        EditText edtEmAdd = findViewById(R.id.addressTxt);
+        txtHello.setText(edtTxtName.getText().toString());
+        txtName.setText(edtTxtLName.getText().toString());
+        txtLaName.setText(edtEmAdd.getText().toString());
 
     }
 }
